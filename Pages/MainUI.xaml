@@ -5,11 +5,10 @@
     xmlns:local="using:Farming.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
-
-    <Grid Background="#FF1823C3">
-        <Button Content="Button" Margin="935,470,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextLogMain" HorizontalAlignment="Left" Height="860" Margin="1060,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="310"/>
-
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid RequestedTheme="Default">
+        <Button Content="Button" Margin="935,470,0,0" VerticalAlignment="Top" RequestedTheme="Dark"/>
+        <TextBox x:Name="TextLogMain" HorizontalAlignment="Left" Height="860" Margin="1060,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="310" RequestedTheme="Dark"/>
     </Grid>
 </Page>

@@ -33,7 +33,7 @@ namespace Farming.Pages
             }
         }
 
-        void FilesChecker() 
+        void FilesChecker()
         // Checks the folders inside folder "Photos"
         {
             String Photos_path = System.IO.Directory.GetCurrentDirectory();
