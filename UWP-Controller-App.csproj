@@ -7,8 +7,8 @@
     <ProjectGuid>{B5FA2C5A-A204-4960-B923-E7F5ACE0E937}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Farming</RootNamespace>
-    <AssemblyName>Farming</AssemblyName>
+    <RootNamespace>UWP_Controller_App</RootNamespace>
+    <AssemblyName>UWP-Controller-App</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
