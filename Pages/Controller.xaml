@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Farming.Pages.Controller"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Farming.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#FFA2A2A9">
+        <ComboBox x:Name="Device_List" Margin="630,163,0,0" Width="120"/>
+        <ToggleSwitch x:Name="Switch_Bluetooth" Header="Bluetooth" Margin="371,124,0,0" VerticalAlignment="Top" Toggled="Switch_Bluetooth_Toggled" Width="89"/>
+        <ToggleSwitch x:Name="Switch_Wifi" Header="Wifi" Margin="371,184,0,0" VerticalAlignment="Top" Toggled="Switch_Wifi_Toggled" Width="89" RenderTransformOrigin="0.438,0"/>
+        <ToggleSwitch x:Name="Switch_USB" Header="USB" Margin="371,239,0,0" VerticalAlignment="Top" Toggled="Switch_USB_Toggled" Width="89"/>
+    </Grid>
+
+</Page>

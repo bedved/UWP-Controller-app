@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Farming.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Farming"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+
+        <Frame x:Name="FrameUI"/>
+        <NavigationView x:Name="NavView" Content="NavigationView">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Status" Tapped="NavigationViewItem_Tapped_MainUI" Icon="Home"/>
+                <NavigationViewItem Content="Controller" Tapped="NavigationViewItem_Tapped_Controller" Icon="Switch"/>
+                <NavigationViewItem Content="Photo Library" Tapped="NavigationViewItem_Tapped_Photo_Library" Icon="Camera"/>
+            </NavigationView.MenuItems>
+        </NavigationView>
+
+    </Grid>
+</Page>
