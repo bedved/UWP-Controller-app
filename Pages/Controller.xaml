@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <Grid RequestedTheme="Default">
+    <Grid>
         <ComboBox x:Name="Device_List" Margin="630,163,0,0" Width="120"/>
         <ToggleSwitch x:Name="Switch_Bluetooth" Header="Bluetooth" Margin="371,124,0,0" VerticalAlignment="Top" Toggled="Switch_Bluetooth_Toggled" Width="89"/>
         <ToggleSwitch x:Name="Switch_Wifi" Header="Wifi" Margin="371,184,0,0" VerticalAlignment="Top" Toggled="Switch_Wifi_Toggled" Width="89" RenderTransformOrigin="0.438,0"/>

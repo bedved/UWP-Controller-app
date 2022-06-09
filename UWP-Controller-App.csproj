@@ -132,7 +132,8 @@
       <DependentUpon>Photo_Library.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\StyleService.cs" />
+    <Compile Include="Services\Sources\StyleService.cs" />
+    <Compile Include="Services\Sources\USBSerial.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -179,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Photos\CAMERA1\" />
+    <Folder Include="Services\Headers\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
